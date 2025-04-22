@@ -1,4 +1,21 @@
-from traceback import print_tb
+# -*- coding: utf-8 -*-
+__title__ = "Pipe-Sleeve Cutting tool"
+__version__ = 'Version = 1.1'
+__doc__ = """Version = 1.1
+Date    = 04.03.2025
+__________________________________________________________________
+Description:
+
+This button will automatically create the Cuttings in the structural model by taking the MEP sleeve Location and parameters.
+__________________________________________________________________
+How-to:
+
+-> Click the tool icon in the 10D Tools tab.
+-> Drag-select the model area containing MEP sleeves.
+-> Confirm action in the dialog box (“Yes, Process them”).
+-> Tool places cut families at detected sleeve locations.
+__________________________________________________________________
+Author: Venky10D"""
 
 from pyrevit import revit, DB, forms
 from Autodesk.Revit.DB import (
